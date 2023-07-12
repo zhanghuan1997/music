@@ -1,0 +1,12 @@
+<!--pages/components/video-related/index.wxml-->
+<view class="mvrelated">
+  <view class="mvrelated-flex" wx:for="{{mvRelated}}" wx:key="vid">
+    <image src="{{item.coverUrl}}"></image>
+    <view class="text-content">
+      <text>{{item.title}}</text>
+      <view>
+        <text class="text-user">{{item.creator[0].userName}}</text>
+      </view>
+    </view>
+  </view>
+</view>

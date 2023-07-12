@@ -3,7 +3,19 @@
     "pages/home-music/index",
     "pages/home-video/index",
     "pages/components/video-item-v1/index",
-    "pages/detail-video/index"
+    "pages/detail-video/index",
+    "pages/components/video-related/index",
+    "pages/detail-search/index",
+    "pages/components/area-header/index",
+    "pages/components/song-item-v1/index",
+    "pages/components/song-menu-area/index",
+    "pages/components/song-menu-item/index",
+    "pages/components/ranking-area-item/index",
+    "pages/detail-songs/index",
+    "pages/components/song-item-v2/index",
+    "pages/components/song-detail-header/index",
+    "pages/music-player/index",
+    "base-ui/nav-bar/index"
   ],
   "tabBar": {
     "list": [

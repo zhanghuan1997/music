@@ -1,1 +1,27 @@
 /* pages/home-music/index.wxss */
+page{
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+swiper{
+  border-radius: 10rpx;
+  overflow: hidden;
+  transform: translateY(0);
+}
+.swiper-item{
+  display: flex;
+  
+}
+.swiper-item image{
+  width: 100%;
+}
+.recommend-song{
+  margin-top: 20rpx;
+}
+.hit-song-sheet{
+  margin-top: 20rpx;
+}
+.peak-rank {
+  margin-top: 20px;
+}

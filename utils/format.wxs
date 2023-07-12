@@ -8,19 +8,25 @@ function formatCount(count){
     return countNum
   }
 }
-function formatMinute(minute){
-  minute = minute + ''
-  return  ("00"+ minute).slice(minute.length) 
+// 12 -> 12
+// 5 -> 05
+function padLeftZero(time) {
+  time = time + ""
+  return ("00" + time).slice(time.length)
 }
-function formatDuration(duration){
-  if(duration){
-    var duration = duration/1000
-  }
-  var minute = formatMinute(Math.floor(duration/60))
-  var second = duration % 60
-  return minute + ":" + second
+
+function formatDuration(duration) {
+  duration = duration / 1000
+  // 488s / 60 = 8.12
+  var minute = Math.floor(duration / 60)
+  // 488s % 60
+  var second = Math.floor(duration) % 60
+
+  return padLeftZero(minute) + ":" + padLeftZero(second)
 }
+
+// commonjs
 module.exports = {
-  formatCount:formatCount,
-  formatDuration:formatDuration
+  formatCount: formatCount,
+  formatDuration: formatDuration
 }

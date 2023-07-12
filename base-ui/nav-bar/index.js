@@ -1,0 +1,19 @@
+// base-ui/nav-bar/index.js
+Component({
+  properties:{
+    title:{
+      type:String,
+      value:'默认标题'
+    }
+  },
+  options:{
+    multipleSlots:true
+  },
+  data:{
+    statusBarHeight:getApp().globalData.statusBarHeight
+  },
+  lifetimes:{
+    ready(){
+    }
+  }
+})

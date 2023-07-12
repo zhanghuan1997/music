@@ -1,4 +1,10 @@
 /**app.wxss**/
+page{
+  background-color: #fafafa;
+}
+.van-search__content {
+  background-color: #fff !important;
+}
 .container {
   height: 100%;
   display: flex;

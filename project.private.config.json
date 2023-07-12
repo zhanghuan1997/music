@@ -15,6 +15,34 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/detail-video/index",
+          "query": "id=14624461",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/home-music/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "search-detail",
+          "pathName": "pages/detail-songs/index",
+          "query": "rankingName=%E7%83%AD%E6%AD%8C%E6%A6%9C&type=rank",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/music-player/index",
+          "query": "id=2049512697",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

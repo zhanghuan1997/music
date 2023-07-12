@@ -1,0 +1,13 @@
+<!--pages/components/song-menu-area/index.wxml-->
+<scroll-view class="list" scroll-x>
+  <block wx:for="{{hotSongSheet}}" wx:key="id">
+   <view class="item">
+      <song-mune-item 
+      sheetSong="{{item}}" 
+      bindtap="toDetailSong" 
+      data-item="{{item}}">
+      </song-mune-item>
+   </view>
+  </block>
+</scroll-view>
+

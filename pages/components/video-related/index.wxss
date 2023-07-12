@@ -1,0 +1,22 @@
+/* pages/components/video-related/index.wxss */
+.mvrelated{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mvrelated-flex{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.mvrelated image{
+  width: 35%;
+  height: 75px;
+}
+.text-content{
+  width: 61%;
+}
+.text-user{
+  font-size: 12px;
+  color: #999;
+}

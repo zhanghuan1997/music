@@ -1,0 +1,13 @@
+<!--pages/components/song-item-v1/index.wxml-->
+<view class="item" bindtap="handleItemV1Click">
+  <image class="image" src="{{item.al.picUrl}}" />
+  <view class="content">
+    <view class="name">{{item.name}}</view>
+    <view class="source">{{item.ar[0].name}} · {{item.name}}</view>
+  </view>
+  <view class="arrow">
+    <image src="../../../assets/images/icons/arrow-right.png" />
+  </view>
+</view>
+
+
